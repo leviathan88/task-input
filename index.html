@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title> input types </title>
+</head>
+<body>
+  
+  <div id="container">
+    <h1> Input Demos </h1>
+
+    <form action="#">
+      <div class="container2">
+        <label for="email"> Email? </label>
+        <input type="email" id="email" placeholder="email" autocomplete="off">
+  
+        <label for="password"> Password </label>
+        <input type="password" id="password" placeholder="password">
+  
+        <p> What is your gender? </p>
+        <div>
+          <label for="radio1"> Male </label>
+          <input type="radio" name="gender" id="radio1">
+  
+          <label for="radio2"> Female </label> 
+          <input type="radio" name="gender" id="radio2"> 
+        </div>
+      </div>
+
+      <div class="container2">
+        <label for="color"> What is your favorite color? </label>
+        <select id="color">
+          <option value="red"> red </option>
+          <option value="green"> green </option>
+          <option value="blue"> blue </option>
+        </select>
+  
+        <label for="msg"> What is on your mind? </label>
+        <textarea id="msg" rows="4"></textarea>
+  
+        <button type="submit"> Submit </button>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>

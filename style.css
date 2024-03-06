@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  padding: 80px;
+  border: 2px dashed black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#container h1 {
+  margin-bottom: 30px;
+}
+#container form {
+  display: flex;
+  gap: 100px;
+}
+#container form .container2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+#container form input, #container form select, #container form textarea {
+  width: 250px;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+#container form input[type=radio] {
+  width: 60px;
+}
+#container form button {
+  width: 200px;
+  padding: 10px;
+  cursor: pointer;
+  border: 5px solid black;
+  border-radius: 30px;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+#container form button:hover {
+  color: white;
+  background-color: black;
+  border-color: black;
+  transition: 1s;
+}/*# sourceMappingURL=style.css.map */
